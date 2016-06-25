@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92A87991D1E5962008DA809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A87981D1E5962008DA809 /* AppDelegate.swift */; };
+		A92A879B1D1E5962008DA809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A879A1D1E5962008DA809 /* ViewController.swift */; };
+		A92A879E1D1E5962008DA809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92A879C1D1E5962008DA809 /* Main.storyboard */; };
+		A92A87A01D1E5962008DA809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92A879F1D1E5962008DA809 /* Assets.xcassets */; };
+		A92A87A31D1E5962008DA809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92A87A11D1E5962008DA809 /* LaunchScreen.storyboard */; };
+		A92A87AE1D1E5962008DA809 /* UniversialLinkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A87AD1D1E5962008DA809 /* UniversialLinkDemoTests.swift */; };
+		A92A87B91D1E5962008DA809 /* UniversialLinkDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A87B81D1E5962008DA809 /* UniversialLinkDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A92A87AA1D1E5962008DA809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92A878D1D1E5962008DA809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92A87941D1E5962008DA809;
+			remoteInfo = UniversialLinkDemo;
+		};
+		A92A87B51D1E5962008DA809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92A878D1D1E5962008DA809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92A87941D1E5962008DA809;
+			remoteInfo = UniversialLinkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A92A87951D1E5962008DA809 /* UniversialLinkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversialLinkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92A87981D1E5962008DA809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A92A879A1D1E5962008DA809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A92A879D1D1E5962008DA809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A92A879F1D1E5962008DA809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A92A87A21D1E5962008DA809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A92A87A41D1E5962008DA809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92A87A91D1E5962008DA809 /* UniversialLinkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversialLinkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92A87AD1D1E5962008DA809 /* UniversialLinkDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversialLinkDemoTests.swift; sourceTree = "<group>"; };
+		A92A87AF1D1E5962008DA809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92A87B41D1E5962008DA809 /* UniversialLinkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversialLinkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92A87B81D1E5962008DA809 /* UniversialLinkDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversialLinkDemoUITests.swift; sourceTree = "<group>"; };
+		A92A87BA1D1E5962008DA809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A92A87921D1E5962008DA809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92A87A61D1E5962008DA809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92A87B11D1E5962008DA809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92A878C1D1E5962008DA809 = {
+			isa = PBXGroup;
+			children = (
+				A92A87971D1E5962008DA809 /* UniversialLinkDemo */,
+				A92A87AC1D1E5962008DA809 /* UniversialLinkDemoTests */,
+				A92A87B71D1E5962008DA809 /* UniversialLinkDemoUITests */,
+				A92A87961D1E5962008DA809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A92A87961D1E5962008DA809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A92A87951D1E5962008DA809 /* UniversialLinkDemo.app */,
+				A92A87A91D1E5962008DA809 /* UniversialLinkDemoTests.xctest */,
+				A92A87B41D1E5962008DA809 /* UniversialLinkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92A87971D1E5962008DA809 /* UniversialLinkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A92A87981D1E5962008DA809 /* AppDelegate.swift */,
+				A92A879A1D1E5962008DA809 /* ViewController.swift */,
+				A92A879C1D1E5962008DA809 /* Main.storyboard */,
+				A92A879F1D1E5962008DA809 /* Assets.xcassets */,
+				A92A87A11D1E5962008DA809 /* LaunchScreen.storyboard */,
+				A92A87A41D1E5962008DA809 /* Info.plist */,
+			);
+			path = UniversialLinkDemo;
+			sourceTree = "<group>";
+		};
+		A92A87AC1D1E5962008DA809 /* UniversialLinkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A92A87AD1D1E5962008DA809 /* UniversialLinkDemoTests.swift */,
+				A92A87AF1D1E5962008DA809 /* Info.plist */,
+			);
+			path = UniversialLinkDemoTests;
+			sourceTree = "<group>";
+		};
+		A92A87B71D1E5962008DA809 /* UniversialLinkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A92A87B81D1E5962008DA809 /* UniversialLinkDemoUITests.swift */,
+				A92A87BA1D1E5962008DA809 /* Info.plist */,
+			);
+			path = UniversialLinkDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A92A87941D1E5962008DA809 /* UniversialLinkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92A87BD1D1E5962008DA809 /* Build configuration list for PBXNativeTarget "UniversialLinkDemo" */;
+			buildPhases = (
+				A92A87911D1E5962008DA809 /* Sources */,
+				A92A87921D1E5962008DA809 /* Frameworks */,
+				A92A87931D1E5962008DA809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversialLinkDemo;
+			productName = UniversialLinkDemo;
+			productReference = A92A87951D1E5962008DA809 /* UniversialLinkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A92A87A81D1E5962008DA809 /* UniversialLinkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92A87C01D1E5962008DA809 /* Build configuration list for PBXNativeTarget "UniversialLinkDemoTests" */;
+			buildPhases = (
+				A92A87A51D1E5962008DA809 /* Sources */,
+				A92A87A61D1E5962008DA809 /* Frameworks */,
+				A92A87A71D1E5962008DA809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92A87AB1D1E5962008DA809 /* PBXTargetDependency */,
+			);
+			name = UniversialLinkDemoTests;
+			productName = UniversialLinkDemoTests;
+			productReference = A92A87A91D1E5962008DA809 /* UniversialLinkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A92A87B31D1E5962008DA809 /* UniversialLinkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92A87C31D1E5962008DA809 /* Build configuration list for PBXNativeTarget "UniversialLinkDemoUITests" */;
+			buildPhases = (
+				A92A87B01D1E5962008DA809 /* Sources */,
+				A92A87B11D1E5962008DA809 /* Frameworks */,
+				A92A87B21D1E5962008DA809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92A87B61D1E5962008DA809 /* PBXTargetDependency */,
+			);
+			name = UniversialLinkDemoUITests;
+			productName = UniversialLinkDemoUITests;
+			productReference = A92A87B41D1E5962008DA809 /* UniversialLinkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92A878D1D1E5962008DA809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "sam phomsopha";
+				TargetAttributes = {
+					A92A87941D1E5962008DA809 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A92A87A81D1E5962008DA809 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A92A87941D1E5962008DA809;
+					};
+					A92A87B31D1E5962008DA809 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A92A87941D1E5962008DA809;
+					};
+				};
+			};
+			buildConfigurationList = A92A87901D1E5962008DA809 /* Build configuration list for PBXProject "UniversialLinkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A92A878C1D1E5962008DA809;
+			productRefGroup = A92A87961D1E5962008DA809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A92A87941D1E5962008DA809 /* UniversialLinkDemo */,
+				A92A87A81D1E5962008DA809 /* UniversialLinkDemoTests */,
+				A92A87B31D1E5962008DA809 /* UniversialLinkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A92A87931D1E5962008DA809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92A87A31D1E5962008DA809 /* LaunchScreen.storyboard in Resources */,
+				A92A87A01D1E5962008DA809 /* Assets.xcassets in Resources */,
+				A92A879E1D1E5962008DA809 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92A87A71D1E5962008DA809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92A87B21D1E5962008DA809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A92A87911D1E5962008DA809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92A879B1D1E5962008DA809 /* ViewController.swift in Sources */,
+				A92A87991D1E5962008DA809 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92A87A51D1E5962008DA809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92A87AE1D1E5962008DA809 /* UniversialLinkDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92A87B01D1E5962008DA809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92A87B91D1E5962008DA809 /* UniversialLinkDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A92A87AB1D1E5962008DA809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A92A87941D1E5962008DA809 /* UniversialLinkDemo */;
+			targetProxy = A92A87AA1D1E5962008DA809 /* PBXContainerItemProxy */;
+		};
+		A92A87B61D1E5962008DA809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A92A87941D1E5962008DA809 /* UniversialLinkDemo */;
+			targetProxy = A92A87B51D1E5962008DA809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A92A879C1D1E5962008DA809 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92A879D1D1E5962008DA809 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A92A87A11D1E5962008DA809 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92A87A21D1E5962008DA809 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A92A87BB1D1E5962008DA809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A92A87BC1D1E5962008DA809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A92A87BE1D1E5962008DA809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UniversialLinkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phomsopha.UniversialLinkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A92A87BF1D1E5962008DA809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UniversialLinkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phomsopha.UniversialLinkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A92A87C11D1E5962008DA809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UniversialLinkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phomsopha.UniversialLinkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniversialLinkDemo.app/UniversialLinkDemo";
+			};
+			name = Debug;
+		};
+		A92A87C21D1E5962008DA809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UniversialLinkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phomsopha.UniversialLinkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniversialLinkDemo.app/UniversialLinkDemo";
+			};
+			name = Release;
+		};
+		A92A87C41D1E5962008DA809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UniversialLinkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phomsopha.UniversialLinkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UniversialLinkDemo;
+			};
+			name = Debug;
+		};
+		A92A87C51D1E5962008DA809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UniversialLinkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phomsopha.UniversialLinkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UniversialLinkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A92A87901D1E5962008DA809 /* Build configuration list for PBXProject "UniversialLinkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92A87BB1D1E5962008DA809 /* Debug */,
+				A92A87BC1D1E5962008DA809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92A87BD1D1E5962008DA809 /* Build configuration list for PBXNativeTarget "UniversialLinkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92A87BE1D1E5962008DA809 /* Debug */,
+				A92A87BF1D1E5962008DA809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A92A87C01D1E5962008DA809 /* Build configuration list for PBXNativeTarget "UniversialLinkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92A87C11D1E5962008DA809 /* Debug */,
+				A92A87C21D1E5962008DA809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A92A87C31D1E5962008DA809 /* Build configuration list for PBXNativeTarget "UniversialLinkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92A87C41D1E5962008DA809 /* Debug */,
+				A92A87C51D1E5962008DA809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92A878D1D1E5962008DA809 /* Project object */;
+}
