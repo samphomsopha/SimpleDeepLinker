@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DeepLinking.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>UniversialLinkDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>A92A87B31D1E5962008DA809</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A92A87D41D2074B6008DA809</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A92A87DD1D2074B6008DA809</key>
 		<dict>
 			<key>primary</key>
 			<true/>

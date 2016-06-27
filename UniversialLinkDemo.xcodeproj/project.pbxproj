@@ -14,6 +14,11 @@
 		A92A87A31D1E5962008DA809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92A87A11D1E5962008DA809 /* LaunchScreen.storyboard */; };
 		A92A87AE1D1E5962008DA809 /* UniversialLinkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A87AD1D1E5962008DA809 /* UniversialLinkDemoTests.swift */; };
 		A92A87B91D1E5962008DA809 /* UniversialLinkDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A87B81D1E5962008DA809 /* UniversialLinkDemoUITests.swift */; };
+		A92A87C71D1F985B008DA809 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A87C61D1F985B008DA809 /* SecondViewController.swift */; };
+		A92A87CA1D1F9A25008DA809 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A87C91D1F9A25008DA809 /* Router.swift */; };
+		A92A87CC1D1F9A3D008DA809 /* routes.json in Resources */ = {isa = PBXBuildFile; fileRef = A92A87CB1D1F9A3D008DA809 /* routes.json */; };
+		A92A87CE1D1F9A52008DA809 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A87CD1D1F9A52008DA809 /* Route.swift */; };
+		A92A87F41D20E99E008DA809 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A87F31D20E99E008DA809 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,12 @@
 		A92A87B41D1E5962008DA809 /* UniversialLinkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversialLinkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92A87B81D1E5962008DA809 /* UniversialLinkDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversialLinkDemoUITests.swift; sourceTree = "<group>"; };
 		A92A87BA1D1E5962008DA809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92A87C61D1F985B008DA809 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		A92A87C91D1F9A25008DA809 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A92A87CB1D1F9A3D008DA809 /* routes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = routes.json; sourceTree = "<group>"; };
+		A92A87CD1D1F9A52008DA809 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		A92A87CF1D1F9C77008DA809 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		A92A87F31D20E99E008DA809 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,8 @@
 		A92A878C1D1E5962008DA809 = {
 			isa = PBXGroup;
 			children = (
+				A92A87CF1D1F9C77008DA809 /* MyPlayground.playground */,
+				A92A87C81D1F9A10008DA809 /* DeepLinking */,
 				A92A87971D1E5962008DA809 /* UniversialLinkDemo */,
 				A92A87AC1D1E5962008DA809 /* UniversialLinkDemoTests */,
 				A92A87B71D1E5962008DA809 /* UniversialLinkDemoUITests */,
@@ -97,6 +110,8 @@
 		A92A87971D1E5962008DA809 /* UniversialLinkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A92A87C61D1F985B008DA809 /* SecondViewController.swift */,
+				A92A87F31D20E99E008DA809 /* ThirdViewController.swift */,
 				A92A87981D1E5962008DA809 /* AppDelegate.swift */,
 				A92A879A1D1E5962008DA809 /* ViewController.swift */,
 				A92A879C1D1E5962008DA809 /* Main.storyboard */,
@@ -123,6 +138,16 @@
 				A92A87BA1D1E5962008DA809 /* Info.plist */,
 			);
 			path = UniversialLinkDemoUITests;
+			sourceTree = "<group>";
+		};
+		A92A87C81D1F9A10008DA809 /* DeepLinking */ = {
+			isa = PBXGroup;
+			children = (
+				A92A87C91D1F9A25008DA809 /* Router.swift */,
+				A92A87CB1D1F9A3D008DA809 /* routes.json */,
+				A92A87CD1D1F9A52008DA809 /* Route.swift */,
+			);
+			name = DeepLinking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A92A87A31D1E5962008DA809 /* LaunchScreen.storyboard in Resources */,
+				A92A87CC1D1F9A3D008DA809 /* routes.json in Resources */,
 				A92A87A01D1E5962008DA809 /* Assets.xcassets in Resources */,
 				A92A879E1D1E5962008DA809 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92A87CA1D1F9A25008DA809 /* Router.swift in Sources */,
+				A92A87C71D1F985B008DA809 /* SecondViewController.swift in Sources */,
 				A92A879B1D1E5962008DA809 /* ViewController.swift in Sources */,
+				A92A87CE1D1F9A52008DA809 /* Route.swift in Sources */,
+				A92A87F41D20E99E008DA809 /* ThirdViewController.swift in Sources */,
 				A92A87991D1E5962008DA809 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

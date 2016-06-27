@@ -1,0 +1,22 @@
+{
+    "storyboard": "Main",
+    "defaultRoute": {
+        "class": "ViewController",
+        "identifier": "sbViewController"
+    },
+    "routes": {
+        "third": {
+            "class": "ViewController",
+            "identifier": "sbViewController"
+        },
+        "second": {
+            "identifier": "sbSecondViewController"
+        },
+        "home": {
+            "identifier": "ViewController"
+        },
+        "note": {
+            "handler": "UniversialLinkDemo.specialNotificationKey"
+        }
+    }
+}
